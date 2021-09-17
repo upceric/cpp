@@ -38,6 +38,7 @@ int main()
 {
 	Stack<int> one;
 	one.push(100);
+	one.push(200);
 	std::cout<<"The length of the stack is:"<<one.size()<<std::endl;
 	one.pop();
 	one.pop();
